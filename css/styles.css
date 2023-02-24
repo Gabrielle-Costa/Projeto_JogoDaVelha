@@ -1,0 +1,138 @@
+body{
+    font-family: Helvetica, sans-serif;
+    text-align: center;
+}
+
+h1{
+    font-size: 42px;
+}
+
+.buttons-players button{
+    width: 90px;
+    height: 30px;
+    cursor: pointer;
+    border: none;
+    margin: 3px;
+}
+
+/* Tabuleiro*/
+.container-board{
+    display: flex;
+    width: 300px;
+    position: relative;
+    margin: auto auto;
+    margin-top: 20px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+
+.box-board{
+    height: 100px;
+    position: relative;
+    border: 5px solid black;
+    box-sizing: border-box;
+    flex: 1 1 33%;
+}
+
+#box1, #box2, #box3{
+    border-top: none;
+}
+
+#box1, #box4, #box7{
+    border-left: none;
+}
+
+#box7, #box8, #box9{
+    border-bottom: none;
+}
+
+#box3, #box6, #box9{
+    border-right: none;
+}
+
+/*Simbolos*/
+
+.x{
+    font-size: 65px;
+    color: red;
+    display: inline-block;
+    line-height: 100px;
+}
+
+.o{
+    height: 50px;
+    width: 50px;
+    border: 5px solid green;
+    border-radius: 50%;
+    display: inline-block;
+    line-height: 100px;
+    margin-top: 17px;
+}
+
+.scoreboard{
+    font-weight: bold;
+    margin-top: 0px;
+    font-size: 25px;
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.score-box {
+    display: inline-block;
+    margin: 0px 20px;
+    font-size: 1.4em;
+}
+  
+#x-score {
+    color: red;
+    margin-right: 3px;
+    font-size: 26px;
+}
+  
+#o-score {
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    border: 3px solid green;
+    border-radius: 50%;
+    margin-right: 3px;
+}
+
+#msg-final{
+    
+    height: 150px;
+    width: 550px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 2.5rem;
+    padding-top: 20px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 150px;
+    margin: auto auto;
+}
+
+.hide{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

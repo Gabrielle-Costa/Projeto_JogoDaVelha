@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da Velha</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <h1>Jogo da Velha</h1>
+   
+    <div class="buttons-players">
+        <button id="players2">2 Jogadores</button>
+        <button id="player-ai">Contra AI</button>
+    </div>
+
+    <div class="container-board hide">
+        <div class="box-board" id="box1"></div>
+        <div class="box-board" id="box2"></div>
+        <div class="box-board" id="box3"></div>
+        <div class="box-board" id="box4"></div>
+        <div class="box-board" id="box5"></div>
+        <div class="box-board" id="box6"></div>
+        <div class="box-board" id="box7"></div>
+        <div class="box-board" id="box8"></div>
+        <div class="box-board" id="box9"></div>        
+
+    </div>
+
+    <div id="scoreboard" class="divScore hide">
+        <h2>Placar:</h2>
+        <span class="score-box">
+            <span id="x-score">X</span> :
+            <span id="scored-1">0</span>
+        </span>
+        <span class="score-box">
+            <span id="o-score"></span> :
+            <span id="scored-2">0</span>
+        </span>
+    </div>
+
+    <div class="hide">
+        <div class="x">X</div>
+        <div class="o"></div>
+    </div>
+    
+    <div id="msg-final" class="hide">
+        <p>aaaaaaa</p>
+    </div>
+
+    <script src="js/scripts.js"></script>
+</body>
+</html>
